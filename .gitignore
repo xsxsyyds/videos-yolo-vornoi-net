@@ -1,0 +1,5 @@
+# >100MB: GitHub 单文件硬限制，模型权重不入库，用网盘/Release 分发
+track/best.pt
+# Python 编译缓存
+__pycache__/
+*.pyc

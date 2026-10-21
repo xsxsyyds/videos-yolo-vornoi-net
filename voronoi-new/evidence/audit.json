@@ -1,0 +1,191 @@
+{
+  "sequential_frame_records": true,
+  "all_frames_keep_64_vertices": true,
+  "required_polyline_pixels_present_every_frame": true,
+  "polyline_intersection_counts": {
+    "2": 12796,
+    "4": 1319,
+    "6": 47,
+    "8": 6
+  },
+  "issue_frame_counts": {
+    "contour_order_disagrees": 69,
+    "triple_overlap": 24,
+    "needs_rule_for_crossings_or_containment": 1
+  },
+  "issue_frame_indices": {
+    "contour_order_disagrees": [
+      38,
+      99,
+      106,
+      140,
+      141,
+      164,
+      207,
+      256,
+      362,
+      363,
+      364,
+      448,
+      460,
+      505,
+      614,
+      615,
+      624,
+      630,
+      681,
+      685,
+      698,
+      784,
+      815,
+      818,
+      935,
+      937,
+      938,
+      939,
+      1223,
+      1250,
+      1266,
+      1275,
+      1292,
+      1293,
+      1296,
+      1297,
+      1327,
+      1820,
+      1959,
+      2060,
+      2062,
+      2081,
+      2190,
+      2423,
+      2433,
+      2547,
+      2582,
+      2583,
+      2584,
+      2586,
+      2587,
+      2593,
+      2594,
+      2595,
+      2596,
+      2624,
+      2649,
+      2650,
+      2651,
+      2652,
+      2661,
+      2662,
+      2695,
+      2696,
+      2697,
+      2711,
+      2853,
+      2854,
+      2856
+    ],
+    "triple_overlap": [
+      942,
+      1284,
+      1285,
+      1286,
+      1287,
+      1288,
+      1289,
+      1290,
+      1291,
+      1293,
+      1294,
+      1295,
+      1296,
+      1297,
+      1298,
+      1299,
+      1300,
+      1322,
+      1323,
+      1324,
+      1325,
+      2592,
+      2661,
+      2662
+    ],
+    "needs_rule_for_crossings_or_containment": [
+      1516
+    ]
+  },
+  "first_issue_examples": {
+    "contour_order_disagrees": {
+      "frame": 38,
+      "seconds": 1.2666666666666666,
+      "issue": {
+        "a": 65,
+        "b": 67,
+        "overlap_area": 28.958087380447633,
+        "intersection_count": 4,
+        "status": "contour_order_disagrees",
+        "a_tid": 66,
+        "a_class": 2,
+        "a_number": 15,
+        "b_tid": 68,
+        "b_class": 2,
+        "b_number": 16
+      }
+    },
+    "triple_overlap": {
+      "frame": 942,
+      "seconds": 31.4,
+      "issue": {
+        "a": 58,
+        "b": 64,
+        "overlap_area": 19.3088356147835,
+        "intersection_count": 2,
+        "selection": "all_intersections_in_contour_order",
+        "all_intersections": [
+          [
+            472.93126671145444,
+            462.12175106521954
+          ],
+          [
+            488.59612369508375,
+            453.5385437011719
+          ]
+        ],
+        "segment_count": 1,
+        "chord_fully_inside_overlap": false,
+        "status": "triple_overlap",
+        "others": [
+          66
+        ],
+        "a_tid": 60,
+        "a_class": 2,
+        "a_number": 18,
+        "b_tid": 66,
+        "b_class": 2,
+        "b_number": 15
+      }
+    },
+    "needs_rule_for_crossings_or_containment": {
+      "frame": 1516,
+      "seconds": 50.53333333333333,
+      "issue": {
+        "a": 68,
+        "b": 71,
+        "overlap_area": 1535.8111906014383,
+        "intersection_count": 0,
+        "status": "needs_rule_for_crossings_or_containment",
+        "geometry_type": "LineString",
+        "a_tid": 71,
+        "a_class": 2,
+        "a_number": 32,
+        "b_tid": 175,
+        "b_class": 2,
+        "b_number": 44
+      }
+    }
+  },
+  "frames_with_unresolved_overlap": 89,
+  "frames_with_failed_junctions": 2901,
+  "mean_failed_junctions": 30.571182350913478
+}

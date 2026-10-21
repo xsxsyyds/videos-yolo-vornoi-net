@@ -1,0 +1,18 @@
+Stabilization code package
+
+Files:
+- stabilize_static.py: fixed-reference, multi-static-reference, subpixel registration and rendering
+- crop_stabilized.py: common-valid-area calculation and maximum fixed crop
+- review_stabilized.py: output verification, residual reports, and comparison video
+- test_stabilize_static.py: integration tests for subpixel motion, rotation, perspective, and occlusion
+- requirements-stabilize.txt: Python dependencies
+- STABILIZATION_README.md: full usage instructions
+- crop_note_chinese.md: copied Chinese crop note
+- 14_report_chinese.md: copied Chinese result report
+
+Basic flow:
+1. python stabilize_static.py 14.mp4 --output 14_stabilized --stage all
+2. python review_stabilized.py 14.mp4 --output 14_stabilized
+3. python crop_stabilized.py 14.mp4 --output 14_stabilized
+
+The crop step requires a completed stabilization run and transforms_homography.npz.

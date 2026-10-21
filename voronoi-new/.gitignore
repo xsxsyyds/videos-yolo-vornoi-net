@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.venv/
+deps/
+outputs/
+tests/smoke/
+tests/full14-smoke/

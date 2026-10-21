@@ -1,0 +1,35 @@
+文件清单（SHA-256）
+==============================================================================
+        大小  SHA-256(前16)      路径
+------------------------------------------------------------------------------
+     23730  47e3fe70ae3606c1  packet/README.md
+     11823  3cf741e9e8c71de1  packet/docs/7D形状感知跟踪器_实现与评测.md
+     14014  59c504b80e9f1595  packet/docs/track_segment.md
+     18571  39430eb4ddc817c1  packet/docs/俯视图遮挡_分割连续性稳定性_调研.md
+       422  87c93b18312f7609  packet/env.txt
+      1848  41ae983db66bbbdb  packet/run_example.sh
+      3685  ada7d8811b52a3b1  packet/tools/audit_compare.py
+     18172  50cf800f81308b5f  packet/tools/audit_tracks.py
+      6233  0a519e2767a88b78  packet/tools/diag_mask_artifacts.py
+      5785  2cae9f3b936434ad  packet/tools/run_all_videos.py
+     70803  924e161a9e3d7129  packet/tools/track_segment.py
+      1312  b12dc76a9894e2d1  packet/tools/trackers/c_bs_b150.yaml
+      1312  4224744e707ca17e  packet/tools/trackers/c_bs_b180.yaml
+      1406  5251bc3a7e33b9c4  packet/tools/trackers/c_bs_b30.yaml
+      1311  0128d0cc8914cbf8  packet/tools/trackers/c_bs_b90.yaml
+      1172  95bc299bfb629166  packet/tools/trackers/c_bs_b90_reid.yaml
+      1406  5251bc3a7e33b9c4  packet/tools/trackers/c_bs_dflt.yaml
+      1775  e4620e92fecfdf3f  packet/tools/trackers/c_doc_b90.yaml
+      1712  d284cb659bf8f5d7  packet/tools/trackers/c_doc_b90_reid.yaml
+      1978  b799ac6e977760b0  packet/tools/trackers/official_fasttrack.yaml
+      2238  43cc1085da36deed  packet/tools/trackers/official_tracktrack.yaml
+      2437  eaad4f9e1dc60b8b  packet/tools/trackers/shape.yaml
+      2849  71842c73f5e0a106  packet/ultralytics_patch/README_patch.md
+     34717  80b9b70696249abf  packet/ultralytics_patch/trackers/shape_tracker.py
+------------------------------------------------------------------------------
+共 24 个文件
+
+打包说明：
+  内容为 E:/AAA-reseach 中实际在跑的流水线快照（代码+配置+文档）。
+  不含模型权重(.pt)、视频、数据集 —— 这些体积大且属于外部产物。
+  复现请先读 README.md 的 §0 快速开始 与 §5 关键设计决策。

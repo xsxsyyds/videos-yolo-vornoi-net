@@ -1,0 +1,48 @@
+{
+  "source": "E:\\AAA-reseach\\videos\\new-track\\14-10.20.mp4",
+  "output": "E:\\AAA-reseach\\videos\\new-track\\voronoi-test\\full-14-10.20\\14-10.20_voronoi64_polyline.mp4",
+  "frames": 2901,
+  "width": 2510,
+  "height": 676,
+  "fps": 30.0,
+  "duration_seconds": 96.7,
+  "full_decode_verified": true,
+  "contour_vertices": 64,
+  "grid_scale": 0.5,
+  "raster_scale": 1,
+  "network_thickness_pixels": 2,
+  "frame_workers": 3,
+  "bvh_threads_per_worker": 4,
+  "overlap_rule": "open continuous polyline through ALL contour-ordered intersections",
+  "render_seconds": 323.7551590000003,
+  "mean_compute_ms": 321.5180607376646,
+  "median_compute_ms": 320.4623999999967,
+  "p95_compute_ms": 343.59110000059445,
+  "totals": {
+    "failed_junctions": 88687,
+    "unbracketed_crossings": 170824,
+    "overlap_chord_count": 14168,
+    "overlap_issue_count": 140,
+    "polyline_segments": 17030,
+    "repaired_boolean_geometries": 23440,
+    "frames_with_overlap_issues": 89
+  },
+  "overlap_issue_types": {
+    "contour_order_disagrees": 72,
+    "triple_overlap": 67,
+    "needs_rule_for_crossings_or_containment": 1
+  },
+  "output_bytes": 144696570,
+  "script_sha256": {
+    "render_full14.py": "f42c3cf9843638dd894662e45c22e91cef697431cd13011ba0e29122cc72aea7",
+    "topology_voronoi.py": "ad5dff4de1376414eff439b182f33977321855ebcc96592813eafd10e9a2165f",
+    "bvh_field.py": "6e1d38affb7df597c769c8e12b4cf37cbfea285a0e4fc7956ede5083f9a9bf40",
+    "overlap_chords.py": "c8c3af207c96b633d7d28d4c02e816f5cb3062a4a4fdbb0cbe72e660c6b91559",
+    "prepare_full14.py": "8d03c2e44a6a96150057e0d8901c3da74c2d86162061c68ba49fb6a2bd358ed0"
+  },
+  "limitations": [
+    "Grid topology is numerical, not exact analytic segment Voronoi.",
+    "Failed junctions and unbracketed intervals are omitted and logged.",
+    "No overlap divider is invented when the agreed intersection rule is undefined or ambiguous."
+  ]
+}

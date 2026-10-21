@@ -1,0 +1,62 @@
+[
+  {
+    "frame": 0,
+    "unchanged_64_point_contours": true,
+    "repaired_masks": 6,
+    "parity_query_checks": 6000,
+    "overlap_plans": 10,
+    "unresolved": 0,
+    "area_conservation": true,
+    "all_intersections_on_original_contours": true
+  },
+  {
+    "frame": 500,
+    "unchanged_64_point_contours": true,
+    "repaired_masks": 9,
+    "parity_query_checks": 9000,
+    "overlap_plans": 8,
+    "unresolved": 0,
+    "area_conservation": true,
+    "all_intersections_on_original_contours": true
+  },
+  {
+    "frame": 1400,
+    "unchanged_64_point_contours": true,
+    "repaired_masks": 6,
+    "parity_query_checks": 6000,
+    "overlap_plans": 5,
+    "unresolved": 0,
+    "area_conservation": true,
+    "all_intersections_on_original_contours": true
+  },
+  {
+    "frame": 2400,
+    "unchanged_64_point_contours": true,
+    "repaired_masks": 8,
+    "parity_query_checks": 8000,
+    "overlap_plans": 4,
+    "unresolved": 0,
+    "area_conservation": true,
+    "all_intersections_on_original_contours": true
+  },
+  {
+    "frame": 2850,
+    "unchanged_64_point_contours": true,
+    "repaired_masks": 11,
+    "parity_query_checks": 11000,
+    "overlap_plans": 5,
+    "unresolved": 0,
+    "area_conservation": true,
+    "all_intersections_on_original_contours": true
+  },
+  {
+    "frame": 2900,
+    "unchanged_64_point_contours": true,
+    "repaired_masks": 7,
+    "parity_query_checks": 7000,
+    "overlap_plans": 2,
+    "unresolved": 0,
+    "area_conservation": true,
+    "all_intersections_on_original_contours": true
+  }
+]

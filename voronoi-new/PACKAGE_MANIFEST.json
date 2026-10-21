@@ -1,0 +1,235 @@
+{
+  "description": "64-point polygon Voronoi code and documentation delivery",
+  "source_experiment": "E:\\AAA-reseach\\videos\\new-track\\voronoi-test\\full-14-10.20",
+  "original_archive_hashes_verified": true,
+  "files": {
+    ".gitignore": {
+      "bytes": 86,
+      "sha256": "22fbacaeb74e719d8d41c8c0a803f09bddcb0a230c5b96469ebaa19ce09a5a8a"
+    },
+    "_deps.py": {
+      "bytes": 498,
+      "sha256": "01949fef1d0419614a1e30ce1ce0afb356e40bcfe6ad5235903fe4098219a42f"
+    },
+    "archive/original_full14/baseline_video.py": {
+      "bytes": 48796,
+      "sha256": "9fdc7adf7f32e2a48bad9cd0d7a93bbbad42a4cb719d088eb6cd88c31902a082"
+    },
+    "archive/original_full14/bvh_field.py": {
+      "bytes": 5489,
+      "sha256": "6e1d38affb7df597c769c8e12b4cf37cbfea285a0e4fc7956ede5083f9a9bf40"
+    },
+    "archive/original_full14/check_full14_geometry.py": {
+      "bytes": 3383,
+      "sha256": "98d49552cfdd40057f19e3a70446c4935d6e176acde866d2fe2114bd008a6f1d"
+    },
+    "archive/original_full14/fast_voronoi.py": {
+      "bytes": 11894,
+      "sha256": "75589fe5db5f1997815b7b7167f75540248bfbd21a664480bb27caf74b4bdccd"
+    },
+    "archive/original_full14/overlap_chords.py": {
+      "bytes": 7157,
+      "sha256": "c8c3af207c96b633d7d28d4c02e816f5cb3062a4a4fdbb0cbe72e660c6b91559"
+    },
+    "archive/original_full14/prepare_full14.py": {
+      "bytes": 2709,
+      "sha256": "8d03c2e44a6a96150057e0d8901c3da74c2d86162061c68ba49fb6a2bd358ed0"
+    },
+    "archive/original_full14/render_full14.py": {
+      "bytes": 8674,
+      "sha256": "f42c3cf9843638dd894662e45c22e91cef697431cd13011ba0e29122cc72aea7"
+    },
+    "archive/original_full14/summarize_full14.py": {
+      "bytes": 6439,
+      "sha256": "0fbe4a1d6bc894c988be8bdb8cb37c121a1b7bdf6ecd5d591694f61951c52628"
+    },
+    "archive/original_full14/topology_voronoi.py": {
+      "bytes": 8552,
+      "sha256": "ad5dff4de1376414eff439b182f33977321855ebcc96592813eafd10e9a2165f"
+    },
+    "archive/original_full14/track_segment_snapshot.py": {
+      "bytes": 70803,
+      "sha256": "924e161a9e3d71298792064c2c9decbcfa17d00b4094c480d11a064dbfdc0bc0"
+    },
+    "archive/README.md": {
+      "bytes": 733,
+      "sha256": "b0b4210382755355ef21b6dc655e65a7f1097749d0e7c6b9b5a8d1716412e947"
+    },
+    "bvh_field.py": {
+      "bytes": 5626,
+      "sha256": "f2220b66f02dc4591777039718703231441ad3c40197758a88b2c08001384e79"
+    },
+    "check_package.py": {
+      "bytes": 3023,
+      "sha256": "c63c3e5ea41a7cfadcbd0ffeffd1d6c669cb16520a222a55eae8bfcef7f18043"
+    },
+    "configs/14-10.20.json": {
+      "bytes": 261,
+      "sha256": "97e03c5d788603a271f46ab3f0f2bbf0a1f92bca9352af5b62c084115424cffe"
+    },
+    "evidence/audit.json": {
+      "bytes": 3633,
+      "sha256": "7cef1984e7bb935b393779d57aa71ae6473199a6f3364e94e4e224752f9fef27"
+    },
+    "evidence/contact_sheet.jpg": {
+      "bytes": 851944,
+      "sha256": "d53720f9674b31ed75b642161b26a092d16c72874a4bf0772d021ed87c8d27f9"
+    },
+    "evidence/geometry_validation.json": {
+      "bytes": 1586,
+      "sha256": "3e2951617cf4e95d67c4731a18800df1a3b6a21a05f56c78511cdfb28d0df2f8"
+    },
+    "evidence/overlap_detail_f2400.png": {
+      "bytes": 40816,
+      "sha256": "7b98edd500f11a98e434ac1e5ee8af3d7282328ca2006ff59ab1dcfa515e5a73"
+    },
+    "evidence/overlap_detail_f2850.png": {
+      "bytes": 48005,
+      "sha256": "835dd5f1740cf63bbd510038cef54d747469f3318662b00914ad3bf21a6f8072"
+    },
+    "evidence/preparation.json": {
+      "bytes": 353,
+      "sha256": "e8e8ecedfc2d42263d77b7c66cf57e6d911fab848d6a5bbe7e5038066ea4bf03"
+    },
+    "evidence/validation.json": {
+      "bytes": 1943,
+      "sha256": "a2e75e011485fa2f90b715773f82bbbdc49fdd0ec52556c037211b6ac1fdfc91"
+    },
+    "evidence/原始全片处理说明.md": {
+      "bytes": 3570,
+      "sha256": "230f19432b993f44c438a9674769c83e694611dc104717cd5a506a925003c9d4"
+    },
+    "overlap_chords.py": {
+      "bytes": 7307,
+      "sha256": "8b9b0c7d7d3616f829a0d1d0c6885a0615db928d025d5109301bef8df35b6c7b"
+    },
+    "prepare_tracks.py": {
+      "bytes": 3023,
+      "sha256": "3597de49b95ecf5c76576804ab26eefd2cd8e31fb717e6b023d56aa144438afc"
+    },
+    "README.md": {
+      "bytes": 4846,
+      "sha256": "6bfae5a4ca0ed7ded0db2873e817ad3c687e198b76987a29fd748832fa3e0fff"
+    },
+    "render_video.py": {
+      "bytes": 11899,
+      "sha256": "c553975a4400ae641c582d0a7e85c0532d0d973c8320a46d45534fb769a62bbc"
+    },
+    "requirements.txt": {
+      "bytes": 203,
+      "sha256": "ce9e70383ac120f00b7374cc2fcd6065163d8a3b968ca738398b300374357a6c"
+    },
+    "run_14.ps1": {
+      "bytes": 1079,
+      "sha256": "227b68b3cb30fd92f63ebf0545d6d08c765cb882c0ec81f9ae83c20563194198"
+    },
+    "tests/check.log": {
+      "bytes": 4560,
+      "sha256": "665cdd6731d9223bb2dcf1300f71dc9a03d2ab24b64ba2eb9b46b41d2a772895"
+    },
+    "tests/full14-smoke/14-10.20_voronoi64_polyline.mp4": {
+      "bytes": 349522,
+      "sha256": "45acc60bdbde1768240ffe01f097d564fc5018b4f3f5e8053a791f9913bb004b"
+    },
+    "tests/full14-smoke/encoder.log": {
+      "bytes": 3234,
+      "sha256": "2cb92fbc055d388a633d919dd4dd1a8fc440d3c9214d0633a4398729c7e17bc6"
+    },
+    "tests/full14-smoke/frames.jsonl": {
+      "bytes": 18947,
+      "sha256": "b079989dcf1c15112bc640fcf35273f536b983c06512da0e3f7529f6f1e87474"
+    },
+    "tests/full14-smoke/result_f1400.png": {
+      "bytes": 2239099,
+      "sha256": "a48c3a081decfb6ff58258f76d1cc7c9860318a98404d88f13c297249ef5101d"
+    },
+    "tests/full14-smoke/result_f1401.png": {
+      "bytes": 2235800,
+      "sha256": "a89f78e806ed3e2f612970c7adb6b8e76b3fb1434391ce9b5b920ce04996f44a"
+    },
+    "tests/full14-smoke/result_f1402.png": {
+      "bytes": 2266175,
+      "sha256": "e70674e8d82c1013d6c1eeed74a2abef70762a63806ab7a088c4e1c1818b925a"
+    },
+    "tests/full14-smoke/result_f1403.png": {
+      "bytes": 2235271,
+      "sha256": "87c228bfb4b0402d58b1d48cc3daa7897eac598b5c2c0b324dd4d2dfd56a4fa1"
+    },
+    "tests/full14-smoke/validation.json": {
+      "bytes": 1915,
+      "sha256": "4082e3f96f67392acdf5622f61ac94039a0e72c78f0bcf96d07d634cc731bb09"
+    },
+    "tests/full14-smoke.log": {
+      "bytes": 3936,
+      "sha256": "d04dded3e26e1ba78a74dec1b679c751e9e9320f4f3f743201d6832b3927cc47"
+    },
+    "tests/package_validation.json": {
+      "bytes": 670,
+      "sha256": "b47d027c17f9366884836f55cc989bc29e359b76b21a8daf548f1f9a27644c43"
+    },
+    "tests/preview/preview_f2400.png": {
+      "bytes": 2233891,
+      "sha256": "7a40e892c1822b0a1f4e09d545ed225c7c6095ec5f7accf65075cbe016ee315d"
+    },
+    "tests/preview/preview_stats.json": {
+      "bytes": 7016,
+      "sha256": "0672da49738e739035ebf633f75747d44bb459e7115e1a3f56779c222504420e"
+    },
+    "tests/preview.log": {
+      "bytes": 1298,
+      "sha256": "b0b4a154312ef3f35035a3283e3047ea49c0fe114d307bb1714f2f376f4f5c2a"
+    },
+    "tests/smoke/frames64.pkl": {
+      "bytes": 2235,
+      "sha256": "9672a83e5169d9dd39934665711cb2a54318ab2ffda54d12cccabf3486e65a10"
+    },
+    "tests/smoke/input.mp4": {
+      "bytes": 1161,
+      "sha256": "bd7b493e74cf63a3e26b25a3fb0d135f98034d5a863634b712a45235d3709296"
+    },
+    "tests/smoke/output/encoder.log": {
+      "bytes": 3056,
+      "sha256": "e4f124189a662e0778e6b99a2c6ae3a6ecf0a818698c95bb078fe711df29dd1e"
+    },
+    "tests/smoke/output/frames.jsonl": {
+      "bytes": 2266,
+      "sha256": "3955cd3af06f0fbdd64d6bd0fcf38af211c0993bbf592431dad78c81f930b9b7"
+    },
+    "tests/smoke/output/input_voronoi64_polyline.mp4": {
+      "bytes": 1788,
+      "sha256": "2a2cd5cbf6614f9b0f4f60d0e406b5019664a246e997db0003b414e63284c932"
+    },
+    "tests/smoke/output/result_f0000.png": {
+      "bytes": 500,
+      "sha256": "5070667aa7a5784c4ea0870088292783dee458402b805f6c00949ead5e52b0d7"
+    },
+    "tests/smoke/output/result_f0001.png": {
+      "bytes": 500,
+      "sha256": "5070667aa7a5784c4ea0870088292783dee458402b805f6c00949ead5e52b0d7"
+    },
+    "tests/smoke/output/result_f0002.png": {
+      "bytes": 1131,
+      "sha256": "c68571cc831e2996ac1d5fc745a21e5c78596cd6a2ada7b7248c7a4a9bf67415"
+    },
+    "tests/smoke/output/validation.json": {
+      "bytes": 1882,
+      "sha256": "28bec88a98977a262cf240c183601e880bb0cde87e42f4ea73ed02a58ec2e4a5"
+    },
+    "topology_voronoi.py": {
+      "bytes": 8876,
+      "sha256": "92d983210e2536552c49b1bf325ec7fedceab78491b0352420aca94b9c9edc24"
+    },
+    "tracking_postprocess.py": {
+      "bytes": 70803,
+      "sha256": "924e161a9e3d71298792064c2c9decbcfa17d00b4094c480d11a064dbfdc0bc0"
+    },
+    "复现与验证.md": {
+      "bytes": 6438,
+      "sha256": "267cf3862ba358c7cb3cd567a0c4e2cb5a741ceebd93a26afad48c7dfa614716"
+    },
+    "算法说明.md": {
+      "bytes": 7878,
+      "sha256": "683c2cf0080bb2f407d50b6f89e25b55a3a3497e98086e42d6bde5fb1e6d87bf"
+    }
+  }
+}

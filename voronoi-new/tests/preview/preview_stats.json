@@ -1,0 +1,267 @@
+[
+  {
+    "frame": 2400,
+    "field_ms": 276.05229999971925,
+    "topology_ms": 169.46180000013555,
+    "occupancy_ms": 60.33930000012333,
+    "crossings_ms": 89.61379999982455,
+    "assembly_ms": 19.510099999934027,
+    "failed_junctions": 24,
+    "unbracketed_crossings": 20,
+    "overlap_chord_count": 4,
+    "overlap_issue_count": 0,
+    "repaired_boolean_geometries": 8,
+    "occupied_grid_points": 56126,
+    "overlap_grid_points": 7,
+    "agents": 72,
+    "vertices_per_mask": 64,
+    "segments": 20332,
+    "required_polyline_missing_pixels": 0,
+    "polyline_segments": 6,
+    "tree_ms": 224.78080000018963,
+    "query_ms": 47.69369999939954,
+    "mean_edges_tested": 12.210042669558453,
+    "compute_compose_ms": 478.45419999976,
+    "chords": [
+      {
+        "a": 18,
+        "b": 44,
+        "overlap_area": 15.462248181052763,
+        "intersection_count": 2,
+        "selection": "all_intersections_in_contour_order",
+        "all_intersections": [
+          [
+            340.9615576245796,
+            330.07823990709227
+          ],
+          [
+            341.2327522153319,
+            333.5364504931776
+          ]
+        ],
+        "segment_count": 1,
+        "chord_fully_inside_overlap": true,
+        "positive_area_both_sides": true,
+        "status": "chord",
+        "points": [
+          [
+            340.9615576245796,
+            330.07823990709227
+          ],
+          [
+            341.2327522153319,
+            333.5364504931776
+          ]
+        ],
+        "a_tid": 20,
+        "a_class": 1,
+        "a_number": 4,
+        "b_tid": 48,
+        "b_class": 1,
+        "b_number": 2
+      },
+      {
+        "a": 59,
+        "b": 61,
+        "overlap_area": 2.7205892074550944,
+        "intersection_count": 2,
+        "selection": "all_intersections_in_contour_order",
+        "all_intersections": [
+          [
+            989.688232421875,
+            497.1860836255002
+          ],
+          [
+            994.2120504051048,
+            496.036439658115
+          ]
+        ],
+        "segment_count": 1,
+        "chord_fully_inside_overlap": true,
+        "positive_area_both_sides": true,
+        "status": "chord",
+        "points": [
+          [
+            989.688232421875,
+            497.1860836255002
+          ],
+          [
+            994.2120504051048,
+            496.036439658115
+          ]
+        ],
+        "a_tid": 63,
+        "a_class": 2,
+        "a_number": 28,
+        "b_tid": 65,
+        "b_class": 2,
+        "b_number": 27
+      },
+      {
+        "a": 62,
+        "b": 64,
+        "overlap_area": 1.543759586277458,
+        "intersection_count": 2,
+        "selection": "all_intersections_in_contour_order",
+        "all_intersections": [
+          [
+            914.6220111369289,
+            354.0054631796377
+          ],
+          [
+            921.1567404655948,
+            352.0157047434804
+          ]
+        ],
+        "segment_count": 1,
+        "chord_fully_inside_overlap": false,
+        "positive_area_both_sides": true,
+        "status": "chord",
+        "points": [
+          [
+            914.6220111369289,
+            354.0054631796377
+          ],
+          [
+            921.1567404655948,
+            352.0157047434804
+          ]
+        ],
+        "a_tid": 66,
+        "a_class": 2,
+        "a_number": 15,
+        "b_tid": 68,
+        "b_class": 2,
+        "b_number": 16
+      },
+      {
+        "a": 67,
+        "b": 70,
+        "overlap_area": 7.392191626769863,
+        "intersection_count": 4,
+        "selection": "all_intersections_in_contour_order",
+        "all_intersections": [
+          [
+            626.9551391601562,
+            435.0245889481651
+          ],
+          [
+            627.1740038551478,
+            438.8395735686277
+          ],
+          [
+            627.4207410313762,
+            443.9548984373211
+          ],
+          [
+            634.449257228433,
+            451.44082677798264
+          ]
+        ],
+        "segment_count": 3,
+        "chord_fully_inside_overlap": false,
+        "positive_area_both_sides": true,
+        "status": "chord",
+        "points": [
+          [
+            626.9551391601562,
+            435.0245889481651
+          ],
+          [
+            627.1740038551478,
+            438.8395735686277
+          ],
+          [
+            627.4207410313762,
+            443.9548984373211
+          ],
+          [
+            634.449257228433,
+            451.44082677798264
+          ]
+        ],
+        "a_tid": 71,
+        "a_class": 2,
+        "a_number": 32,
+        "b_tid": 175,
+        "b_class": 2,
+        "b_number": 44
+      }
+    ],
+    "unresolved": [],
+    "geometry_repairs": [
+      {
+        "a": 8,
+        "status": "repaired_boolean_geometry",
+        "reason": "Self-intersection[2211.3591235576 222.334259033203]",
+        "geometry_type": "MultiPolygon",
+        "a_tid": 9,
+        "a_class": 1,
+        "a_number": 26
+      },
+      {
+        "a": 31,
+        "status": "repaired_boolean_geometry",
+        "reason": "Self-intersection[602.912146324518 71.0417556762695]",
+        "geometry_type": "MultiPolygon",
+        "a_tid": 34,
+        "a_class": 1,
+        "a_number": 13
+      },
+      {
+        "a": 32,
+        "status": "repaired_boolean_geometry",
+        "reason": "Self-intersection[888.97600681584 187.155901830206]",
+        "geometry_type": "MultiPolygon",
+        "a_tid": 35,
+        "a_class": 1,
+        "a_number": 27
+      },
+      {
+        "a": 33,
+        "status": "repaired_boolean_geometry",
+        "reason": "Self-intersection[1460.60966341047 483.097001209354]",
+        "geometry_type": "MultiPolygon",
+        "a_tid": 36,
+        "a_class": 2,
+        "a_number": 23
+      },
+      {
+        "a": 37,
+        "status": "repaired_boolean_geometry",
+        "reason": "Self-intersection[1985.7118782484 297.960412091691]",
+        "geometry_type": "MultiPolygon",
+        "a_tid": 40,
+        "a_class": 2,
+        "a_number": 6
+      },
+      {
+        "a": 41,
+        "status": "repaired_boolean_geometry",
+        "reason": "Self-intersection[1136.75439453125 470.493072509766]",
+        "geometry_type": "Polygon",
+        "a_tid": 44,
+        "a_class": 2,
+        "a_number": 10
+      },
+      {
+        "a": 48,
+        "status": "repaired_boolean_geometry",
+        "reason": "Self-intersection[1418.48561947848 347.260972881447]",
+        "geometry_type": "MultiPolygon",
+        "a_tid": 52,
+        "a_class": 2,
+        "a_number": 11
+      },
+      {
+        "a": 66,
+        "status": "repaired_boolean_geometry",
+        "reason": "Self-intersection[511.092468221611 415.394256591797]",
+        "geometry_type": "MultiPolygon",
+        "a_tid": 70,
+        "a_class": 2,
+        "a_number": 21
+      }
+    ]
+  }
+]

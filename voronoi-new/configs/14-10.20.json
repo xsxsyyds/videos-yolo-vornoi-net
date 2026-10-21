@@ -1,0 +1,7 @@
+{
+  "source": "E:\\AAA-reseach\\videos\\new-track\\14-10.20.mp4",
+  "cache": "E:\\AAA-reseach\\videos\\new-track\\voronoi-test\\full-14-10.20\\frames64.pkl",
+  "out_dir": "../outputs/14-10.20",
+  "name": "14-10.20_voronoi64_polyline.mp4",
+  "workers": 3
+}

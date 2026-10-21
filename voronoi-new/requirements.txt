@@ -1,0 +1,8 @@
+# Versions used for the validated full-video run (Python 3.11, Windows x64).
+numpy==2.4.6
+opencv-python==5.0.0.93
+numba==0.68.0
+llvmlite==0.50.0
+shapely==2.2.0
+threadpoolctl==3.7.0
+imageio-ffmpeg==0.6.0

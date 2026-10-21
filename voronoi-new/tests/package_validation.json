@@ -1,0 +1,34 @@
+{
+  "synthetic_empty_single_overlap_frames": true,
+  "multiprocess_encode_decode": true,
+  "original_frame_checks": [
+    {
+      "frame": 0,
+      "different_pixels": 0
+    },
+    {
+      "frame": 500,
+      "different_pixels": 0
+    },
+    {
+      "frame": 1400,
+      "different_pixels": 0
+    },
+    {
+      "frame": 2400,
+      "different_pixels": 0
+    },
+    {
+      "frame": 2850,
+      "different_pixels": 0
+    },
+    {
+      "frame": 2900,
+      "different_pixels": 0
+    }
+  ],
+  "real_clip_cli_verified": true,
+  "preview_cli_verified": true,
+  "original_archive_hashes_verified": true,
+  "documentation_links_verified": 3
+}

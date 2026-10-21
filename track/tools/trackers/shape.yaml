@@ -1,0 +1,36 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# Shape-aware tracker for top-down / UAV segmentation.
+#
+# 7-D state: [x, y, ẋ, ẏ, a, r, θ]  (centroid + velocity + mask area/aspect/orientation)
+# Reference: "Segment-based UAV Tracking via Shape-Aware Kalman Filter" (Korea Science, 2026)
+#   - reports up to 84-85% fewer ID switches over box-only trackers
+#   - ablation: loose IoU gate (0.3) beats strict (0.5) -> avoid identity fragmentation
+#
+# Docs: https://docs.ultralytics.com/modes/track
+
+tracker_type: shape
+
+# --- generic two-stage association thresholds -------------------------------
+track_high_thresh: 0.25 # (float) First-stage match threshold
+track_low_thresh: 0.1 # (float) Second-stage threshold for low-score matches
+new_track_thresh: 0.25 # (float) Start a new track if no match >= this
+track_buffer: 90 # (int) Frames to keep lost tracks alive.
+                 #   Also the eviction horizon: a track lost longer than this is dropped.
+                 #   Raised from the stock 30 to match the fasttrack baseline (which also uses 90)
+                 #   and to tolerate long top-down occlusions. Measured on 9.mp4: the old model
+                 #   showed gaps up to 39 frames, so 30 was demonstrably too short.
+fuse_score: True # (bool) Fuse detection score with IoU when matching
+
+# --- shape-aware specifics --------------------------------------------------
+shape_weight: 0.35 # (float) Weight of the geometric-signature term in the cost matrix.
+                   #   0.0 recovers plain ByteTrack behaviour; 1.0 uses geometry only.
+                   #   Start here and lower it if shape varies a lot per target.
+shape_iou_thresh: 0.70 # (float) Primary association gate on the **fused** cost.
+                       #   NOTE: this gates a blended cost, not a raw IoU. The reference paper's
+                       #   0.3 optimum applies to a pure mask-IoU cost; on a blend the equivalent
+                       #   operating point sits much higher. 0.70 keeps the gate permissive
+                       #   relative to the 0.8 default without letting weak matches through.
+shape_area_ratio_occ: 0.55 # (float) Observed/expected area ratio below which a track is judged occluded.
+                           #   A canopy shattering a mask below ~55% of its area counts as occlusion.
+shape_coast_max: 15 # (int) Frames a track may coast through occlusion before normal loss handling.

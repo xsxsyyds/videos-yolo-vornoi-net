@@ -1,0 +1,13 @@
+{
+  "frames": 2901,
+  "width": 2510,
+  "height": 676,
+  "fps": 30.0,
+  "vertices": 64,
+  "tracks": 80,
+  "matches_original_track_json": true,
+  "preparation_seconds": 149.36255280000023,
+  "max_objects": 74,
+  "mean_objects": 72.61151327128576,
+  "tracking_source_sha256": "924e161a9e3d71298792064c2c9decbcfa17d00b4094c480d11a064dbfdc0bc0"
+}
