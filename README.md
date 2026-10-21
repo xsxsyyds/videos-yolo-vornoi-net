@@ -5,6 +5,9 @@
 三段各自独立可跑，但**顺序不能换、数据必须同源**。本文只讲三段怎么串起来用；
 各段的算法细节在子目录自己的文档里（见 §12）。
 
+> 📮 **关于 `track/best.pt` 模型权重**：因超出 GitHub 单文件 100 MB 上限，本仓库未附带该权重文件。
+> 如需获取，请联系 QQ 邮箱：**2639022401@qq.com**。
+
 ```
 原始视频 (2560×800)
    │
@@ -66,7 +69,7 @@ $PY = 'E:\AAA-reseach\env\yolo26\python.exe'
 | 目录 | 入口 | 做什么 | 需要什么 |
 |---|---|---|---|
 | `stabilized/` | `stabilize_static.py`、`crop_stabilized.py`、`review_stabilized.py` | 相机运动补偿 + 固定画幅裁切 + 独立验收 | Python + OpenCV（CPU，数分钟） |
-| `track/` | `tools/track_segment.py`（`best.pt` 权重已随包） | 分割、跟踪、去重、缝合、伪影清理、平滑、渲染 | **GPU**（RTX 5060 约 8~10 fps）+ ultralytics（见 §9） |
+| `track/` | `tools/track_segment.py`（`best.pt` 权重不在仓库内，见文首声明） | 分割、跟踪、去重、缝合、伪影清理、平滑、渲染 | **GPU**（RTX 5060 约 8~10 fps）+ ultralytics（见 §9） |
 | `voronoi-new/` | `prepare_tracks.py` + `render_video.py`（或 `run_14.ps1`） | BVH 最近线段场 + 拓扑网络 + 重叠折线 + 编码 | **CPU**，需 numba / shapely，**不跑 YOLO、不需要 GPU** |
 
 ---
